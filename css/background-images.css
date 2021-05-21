@@ -1,0 +1,125 @@
+.background-simple-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	pointer-events: none;
+	display: none;
+	border-radius: inherit
+}
+
+.background-simple {
+	position: absolute;
+	top: 0;
+	right: -1px;
+	bottom: 0;
+	left: -1px
+}
+
+.background-simple-item {
+	background-position: 50% 0;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.background-simple-cover  .background-simple-item {
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+.background-simple-full-width .background-simple-item {
+	background-size: 100% auto
+}
+
+.background-simple-center-top .background-simple-item {
+	background-position: top
+}
+
+
+.background-simple-container.visible-all-only {
+	display: block
+}
+
+@media (max-width:543px) {
+	.background-simple-container.visible-xs-only {
+		display: block
+	}
+}
+
+@media (min-width:544px) and (max-width:767px) {
+	.background-simple-container.visible-sm-only {
+		display: block
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.background-simple-container.visible-md-only {
+		display: block
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+	.background-simple-container.visible-lg-only {
+		display: block
+	}
+}
+
+@media (min-width:1200px) {
+	.background-simple-container.visible-xl-only {
+		display: block
+	}
+}
+
+/* Background Images Gradient*/
+.color-gradient-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	pointer-events: none;
+	display: none;
+	border-radius: inherit
+}
+
+.color-gradient-container.visible-all-only {
+	display: block
+}
+
+@media (max-width:543px) {
+	.color-gradient-container.visible-xs-only {
+		display: block
+	}
+}
+
+@media (min-width:544px) and (max-width:767px) {
+	.color-gradient-container.visible-sm-only {
+		display: block
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.color-gradient-container.visible-md-only {
+		display: block
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+	.color-gradient-container.visible-lg-only {
+		display: block
+	}
+}
+
+@media (min-width:1200px) {
+	.color-gradient-container.visible-xl-only {
+		display: block
+	}
+}
+

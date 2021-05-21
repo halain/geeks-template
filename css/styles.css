@@ -1,0 +1,331 @@
+*,
+:after,
+:before {
+	box-sizing: border-box
+}
+
+body {
+	margin: 0;
+	font-family: "Quattrocento";
+	font-size: 16px;
+	line-height: 1.7;
+	color: #535f65;
+	text-align: left;
+	background-color: #f5f5f4
+}
+
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 24px;
+    font-size: 36px
+}
+
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+ul {
+	margin-bottom: 1rem;
+    margin-top: 0
+}
+
+strong {
+	font-weight: bolder
+}
+
+small {
+	font-size: 80%
+}
+
+a {
+	color: #263238;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects
+}
+
+a:hover {
+	color: #1e272c;
+	text-decoration: none
+}
+
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+
+ /************************ GO TOP ****************/
+
+ .go-top {
+	width: 48px;
+	height: 48px;
+	border-radius: 0;
+	background-color: rgba(38, 50, 56, .9);
+	color: #e2eae9;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	opacity: 1;
+	line-height: 48px;
+	text-align: center;
+	transition: all 1s cubic-bezier(.25, .8, .25, 1);
+	z-index: 1050
+}
+
+.go-top:active,
+.go-top:focus,
+.go-top:hover {
+	color: #e2eae9
+}
+
+.go-top.hide {
+	bottom: -48px;
+	opacity: 0
+}
+
+
+ /******************************************/
+
+
+
+
+/* styckymenu */
+
+#mysticky-nav {
+    width: 100%;
+    position: static;
+}
+
+#mysticky-nav.wrapfixed {
+    position: fixed;
+    left: 0px;
+    margin-top: 0px;
+    z-index: 99990;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    background-color: #f7f7f7;
+}
+
+#mysticky-nav.wrapfixed .myfixed {
+    background-color: #f7f7f7;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+
+#mysticky-nav .myfixed {
+    margin: 0 auto;
+    float: none;
+    border: 0px;
+    background: none;
+    max-width: 100%;
+}
+
+
+/* */
+
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0px !important;
+    border: 0px !important;
+    padding: 0px !important;
+}
+
+
+
+/****************** global elements**********/
+
+.portfolio_img {
+    min-height: 170px !important;
+    max-height: 200px !important;
+    max-width: 380px !important
+}
+
+
+.team_img {
+    min-height: 260px !important;
+    max-height: 260px !important;
+    min-width: 260px !important;
+    max-width: 260px !important
+}
+
+.img_content {
+    align-content: center;
+    max-width: 260px !important
+}
+
+.row-content {
+    justify-content: center !important
+}
+
+.social_network {
+    width: 3rem
+}
+
+.content_media {
+    max-width: 33% !important
+}
+
+.rounded-10 {
+	border-radius: 10px;
+}
+
+.p-t-10{
+    padding-top: 10px;
+}
+
+.row-section-style{
+    background-color: #fafcfe;
+    padding-top: 20px;
+}
+
+#mapa_mundi {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    min-width: 300px;
+    width: 50vw !important
+}
+
+#arrow_left {
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg)
+}
+
+#arrow-right {
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.separator_bottom {
+    padding: 0 0 !important;
+    height: 300px
+}
+
+.separator_upper {
+    padding: 0 0 !important;
+    height: 300px;
+}
+
+@media only screen and (max-width:320px) {
+    .separator_bottom {
+        height: 50px;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:560px) {
+    .separator_bottom {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width:561px) and (max-width:780px) {
+    .separator_bottom {
+        height: 90px;
+    }
+
+}
+
+@media only screen and (min-width:781px) and (max-width:1080px) {
+    .separator_bottom {
+        height: 120px;
+    }
+}
+
+/** button******/
+.button-outline-container-align-center {
+    text-align: center
+}
+
+.button-outline-wrapper {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+}
+
+button.btn-know{
+    border-radius: 5px;
+	padding: 15px 43px;
+    background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: relative;
+	transition: all .2s ease-in-out;
+	z-index: 1;
+}
+
+.button-outline-text {
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 600 !important;
+    color: #fff !important
+}
+
+button.btn-know .button-outline-text {
+	position: relative;
+	z-index: 1
+}
+
+button.btn-know:before{
+	border-color: #e3e3e3;
+}
+
+button.btn-know:after {
+	background-color: #4dc5cc
+}
+
+button.btn-know::after,
+button.btn-know::before {
+	border-radius: inherit;
+	box-sizing: border-box;
+	content: "";
+	position: absolute;
+	height: initial;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transition: all .2s ease-in-out
+}
+
+button.button-outline-animated::before {
+	box-sizing: border-box;
+	border-width: 2px;
+	border-style: solid;
+	top: 1px;
+	left: 1px;
+	bottom: 1px;
+	right: 1px;
+	width: initial
+}
+
+.button-outline-animated::after {
+	transition: opacity .2s ease-in-out;
+	width: 100%;
+	opacity: 0
+}
+
+.button-outline-animated:active::after,
+.button-outline-animated:focus::after,
+.button-outline-animated:hover::after {
+	opacity: 1
+}
+
+
